@@ -1,0 +1,29 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                addApp = id; 
+                addImg = id; 
+                imgLoadFlagChanged = id; 
+                openPrefs = id; 
+                quit = id; 
+                removeApp = id; 
+                removeImg = id; 
+                revealApp = id; 
+                revealImg = id; 
+            }; 
+            CLASS = DMGDJController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                appList = NSTableView; 
+                apps = NSArrayController; 
+                images = NSArrayController; 
+                imgList = NSTableView; 
+                prefsWindow = NSWindow; 
+                statusMenu = NSMenu; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

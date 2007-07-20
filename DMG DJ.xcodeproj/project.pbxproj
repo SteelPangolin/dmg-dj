@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E64BDB60C37384200E1B5AE /* DMGDJController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E64BDB50C37384200E1B5AE /* DMGDJController.m */; };
+		3E64BDC10C37427500E1B5AE /* dmg-dj-menuIconSelected.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3E64BDBF0C37427500E1B5AE /* dmg-dj-menuIconSelected.tif */; };
+		3E64BDC20C37427500E1B5AE /* dmg-dj-menuIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3E64BDC00C37427500E1B5AE /* dmg-dj-menuIcon.tif */; };
+		3E64BDC50C374C6E00E1B5AE /* minus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E64BDC30C374C6E00E1B5AE /* minus-8.png */; };
+		3E64BDC60C374C6E00E1B5AE /* plus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E64BDC40C374C6E00E1B5AE /* plus-8.png */; };
+		3EA2804E0C382EA300EC476E /* dmg-dj-goToArrow.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3EA2804D0C382EA300EC476E /* dmg-dj-goToArrow.tif */; };
+		3EAB96540C3ED95E00907F32 /* dmg-dj-app.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB96530C3ED95E00907F32 /* dmg-dj-app.icns */; };
+		3ED4AE910C3DF18900681E83 /* UTIListOpenAndDropFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED4AE900C3DF18900681E83 /* UTIListOpenAndDropFilter.m */; };
+		3EF4730C0C389FCA0027FA92 /* NDResourceFork+OtherSorces.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF473010C389FCA0027FA92 /* NDResourceFork+OtherSorces.m */; };
+		3EF4730D0C389FCA0027FA92 /* NDResourceFork+PascalStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF473030C389FCA0027FA92 /* NDResourceFork+PascalStrings.m */; };
+		3EF4730E0C389FCA0027FA92 /* NDResourceFork.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF473050C389FCA0027FA92 /* NDResourceFork.m */; };
+		3EF4730F0C389FCA0027FA92 /* NDResourceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF473070C389FCA0027FA92 /* NDResourceInfo.m */; };
+		3EF473100C389FCA0027FA92 /* NSString+NDCarbonUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF473090C389FCA0027FA92 /* NSString+NDCarbonUtilities.m */; };
+		3EF473110C389FCA0027FA92 /* NSURL+NDCarbonUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4730B0C389FCA0027FA92 /* NSURL+NDCarbonUtilities.m */; };
+		3EF473EE0C38A7AA0027FA92 /* PathToFilenameValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF473ED0C38A7AA0027FA92 /* PathToFilenameValueTransformer.m */; };
+		3EF474570C38A9C90027FA92 /* BundleIDToAppNameValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF474540C38A9C90027FA92 /* BundleIDToAppNameValueTransformer.m */; };
+		3EF474580C38A9C90027FA92 /* BundleIDToIconValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF474560C38A9C90027FA92 /* BundleIDToIconValueTransformer.m */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* DMG DJ_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DMG DJ_Prefix.pch"; sourceTree = "<group>"; };
+		3E64BDB40C37384200E1B5AE /* DMGDJController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGDJController.h; sourceTree = "<group>"; };
+		3E64BDB50C37384200E1B5AE /* DMGDJController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGDJController.m; sourceTree = "<group>"; };
+		3E64BDBF0C37427500E1B5AE /* dmg-dj-menuIconSelected.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "dmg-dj-menuIconSelected.tif"; sourceTree = "<group>"; };
+		3E64BDC00C37427500E1B5AE /* dmg-dj-menuIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "dmg-dj-menuIcon.tif"; sourceTree = "<group>"; };
+		3E64BDC30C374C6E00E1B5AE /* minus-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus-8.png"; sourceTree = "<group>"; };
+		3E64BDC40C374C6E00E1B5AE /* plus-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-8.png"; sourceTree = "<group>"; };
+		3EA2804D0C382EA300EC476E /* dmg-dj-goToArrow.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "dmg-dj-goToArrow.tif"; sourceTree = "<group>"; };
+		3EAB96530C3ED95E00907F32 /* dmg-dj-app.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "dmg-dj-app.icns"; sourceTree = "<group>"; };
+		3ED4AE8F0C3DF18900681E83 /* UTIListOpenAndDropFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTIListOpenAndDropFilter.h; sourceTree = "<group>"; };
+		3ED4AE900C3DF18900681E83 /* UTIListOpenAndDropFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTIListOpenAndDropFilter.m; sourceTree = "<group>"; };
+		3EF473000C389FCA0027FA92 /* NDResourceFork+OtherSorces.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NDResourceFork+OtherSorces.h"; sourceTree = "<group>"; };
+		3EF473010C389FCA0027FA92 /* NDResourceFork+OtherSorces.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NDResourceFork+OtherSorces.m"; sourceTree = "<group>"; };
+		3EF473020C389FCA0027FA92 /* NDResourceFork+PascalStrings.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NDResourceFork+PascalStrings.h"; sourceTree = "<group>"; };
+		3EF473030C389FCA0027FA92 /* NDResourceFork+PascalStrings.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NDResourceFork+PascalStrings.m"; sourceTree = "<group>"; };
+		3EF473040C389FCA0027FA92 /* NDResourceFork.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NDResourceFork.h; sourceTree = "<group>"; };
+		3EF473050C389FCA0027FA92 /* NDResourceFork.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NDResourceFork.m; sourceTree = "<group>"; };
+		3EF473060C389FCA0027FA92 /* NDResourceInfo.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NDResourceInfo.h; sourceTree = "<group>"; };
+		3EF473070C389FCA0027FA92 /* NDResourceInfo.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NDResourceInfo.m; sourceTree = "<group>"; };
+		3EF473080C389FCA0027FA92 /* NSString+NDCarbonUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSString+NDCarbonUtilities.h"; sourceTree = "<group>"; };
+		3EF473090C389FCA0027FA92 /* NSString+NDCarbonUtilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSString+NDCarbonUtilities.m"; sourceTree = "<group>"; };
+		3EF4730A0C389FCA0027FA92 /* NSURL+NDCarbonUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSURL+NDCarbonUtilities.h"; sourceTree = "<group>"; };
+		3EF4730B0C389FCA0027FA92 /* NSURL+NDCarbonUtilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSURL+NDCarbonUtilities.m"; sourceTree = "<group>"; };
+		3EF473EC0C38A7AA0027FA92 /* PathToFilenameValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathToFilenameValueTransformer.h; sourceTree = "<group>"; };
+		3EF473ED0C38A7AA0027FA92 /* PathToFilenameValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathToFilenameValueTransformer.m; sourceTree = "<group>"; };
+		3EF474530C38A9C90027FA92 /* BundleIDToAppNameValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BundleIDToAppNameValueTransformer.h; sourceTree = "<group>"; };
+		3EF474540C38A9C90027FA92 /* BundleIDToAppNameValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BundleIDToAppNameValueTransformer.m; sourceTree = "<group>"; };
+		3EF474550C38A9C90027FA92 /* BundleIDToIconValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BundleIDToIconValueTransformer.h; sourceTree = "<group>"; };
+		3EF474560C38A9C90027FA92 /* BundleIDToIconValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BundleIDToIconValueTransformer.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* DMG DJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DMG DJ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3EF472FF0C389FCA0027FA92 /* NDResourceFork */,
+				3EF474530C38A9C90027FA92 /* BundleIDToAppNameValueTransformer.h */,
+				3EF474540C38A9C90027FA92 /* BundleIDToAppNameValueTransformer.m */,
+				3EF474550C38A9C90027FA92 /* BundleIDToIconValueTransformer.h */,
+				3EF474560C38A9C90027FA92 /* BundleIDToIconValueTransformer.m */,
+				3EF473EC0C38A7AA0027FA92 /* PathToFilenameValueTransformer.h */,
+				3EF473ED0C38A7AA0027FA92 /* PathToFilenameValueTransformer.m */,
+				3ED4AE8F0C3DF18900681E83 /* UTIListOpenAndDropFilter.h */,
+				3ED4AE900C3DF18900681E83 /* UTIListOpenAndDropFilter.m */,
+				3E64BDB40C37384200E1B5AE /* DMGDJController.h */,
+				3E64BDB50C37384200E1B5AE /* DMGDJController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* DMG DJ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DMG DJ */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "DMG DJ";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* DMG DJ_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3EAB96530C3ED95E00907F32 /* dmg-dj-app.icns */,
+				3EA2804D0C382EA300EC476E /* dmg-dj-goToArrow.tif */,
+				3E64BDC30C374C6E00E1B5AE /* minus-8.png */,
+				3E64BDC40C374C6E00E1B5AE /* plus-8.png */,
+				3E64BDBF0C37427500E1B5AE /* dmg-dj-menuIconSelected.tif */,
+				3E64BDC00C37427500E1B5AE /* dmg-dj-menuIcon.tif */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EF472FF0C389FCA0027FA92 /* NDResourceFork */ = {
+			isa = PBXGroup;
+			children = (
+				3EF473000C389FCA0027FA92 /* NDResourceFork+OtherSorces.h */,
+				3EF473010C389FCA0027FA92 /* NDResourceFork+OtherSorces.m */,
+				3EF473020C389FCA0027FA92 /* NDResourceFork+PascalStrings.h */,
+				3EF473030C389FCA0027FA92 /* NDResourceFork+PascalStrings.m */,
+				3EF473040C389FCA0027FA92 /* NDResourceFork.h */,
+				3EF473050C389FCA0027FA92 /* NDResourceFork.m */,
+				3EF473060C389FCA0027FA92 /* NDResourceInfo.h */,
+				3EF473070C389FCA0027FA92 /* NDResourceInfo.m */,
+				3EF473080C389FCA0027FA92 /* NSString+NDCarbonUtilities.h */,
+				3EF473090C389FCA0027FA92 /* NSString+NDCarbonUtilities.m */,
+				3EF4730A0C389FCA0027FA92 /* NSURL+NDCarbonUtilities.h */,
+				3EF4730B0C389FCA0027FA92 /* NSURL+NDCarbonUtilities.m */,
+			);
+			path = NDResourceFork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* DMG DJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DMG DJ" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DMG DJ";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "DMG DJ";
+			productReference = 8D1107320486CEB800E47090 /* DMG DJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DMG DJ" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DMG DJ */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* DMG DJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				3E64BDC10C37427500E1B5AE /* dmg-dj-menuIconSelected.tif in Resources */,
+				3E64BDC20C37427500E1B5AE /* dmg-dj-menuIcon.tif in Resources */,
+				3E64BDC50C374C6E00E1B5AE /* minus-8.png in Resources */,
+				3E64BDC60C374C6E00E1B5AE /* plus-8.png in Resources */,
+				3EA2804E0C382EA300EC476E /* dmg-dj-goToArrow.tif in Resources */,
+				3EAB96540C3ED95E00907F32 /* dmg-dj-app.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				3E64BDB60C37384200E1B5AE /* DMGDJController.m in Sources */,
+				3EF4730C0C389FCA0027FA92 /* NDResourceFork+OtherSorces.m in Sources */,
+				3EF4730D0C389FCA0027FA92 /* NDResourceFork+PascalStrings.m in Sources */,
+				3EF4730E0C389FCA0027FA92 /* NDResourceFork.m in Sources */,
+				3EF4730F0C389FCA0027FA92 /* NDResourceInfo.m in Sources */,
+				3EF473100C389FCA0027FA92 /* NSString+NDCarbonUtilities.m in Sources */,
+				3EF473110C389FCA0027FA92 /* NSURL+NDCarbonUtilities.m in Sources */,
+				3EF473EE0C38A7AA0027FA92 /* PathToFilenameValueTransformer.m in Sources */,
+				3EF474570C38A9C90027FA92 /* BundleIDToAppNameValueTransformer.m in Sources */,
+				3EF474580C38A9C90027FA92 /* BundleIDToIconValueTransformer.m in Sources */,
+				3ED4AE910C3DF18900681E83 /* UTIListOpenAndDropFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "DMG DJ";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "DMG DJ";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DMG DJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DMG DJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
