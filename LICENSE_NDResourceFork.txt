@@ -1,0 +1,10 @@
+DMG DJ incorporates an unmodified 2007 version of NDResourceFork by Nathan Day
+<https://github.com/nathanday/>. This package had its own license with a credit clause for source
+distributions. I've reproduced the license text here from an archive copy found at
+<https://web.archive.org/web/20111227061959/http://homepage.mac.com/nathan_day/pages/source.xml>:
+
+Some of the source code I've written is available for other developers to use, there are really no restrictions on use of this code other than leave my name (Nathan Day) within the source code,
+especially if you make your source code public with my code in it. Though the code has been tested
+and is in use, you use it at your own risk. Some of the features that have been put in are for
+future use and so have not been as rigorously tested as actually used features. If you find any
+bugs or have any problems with any of the code then feel free to contact me <nathan_day@mac.com>.
