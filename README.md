@@ -25,4 +25,4 @@ I wrote this in 2007 and have resurrected it onto Github for historical interest
 Not sure if it'll even still compile with modern versions of Xcode, but fortunately, I do have
 an old build as well as the source. Check the Releases tab.
 
-Thanks to @nathanday for `NDResourceFork`.
+Thanks to [@nathanday](https://github.com/nathanday) for `NDResourceFork`.
